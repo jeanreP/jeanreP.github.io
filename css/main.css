@@ -1,43 +1,146 @@
 body {
-    margin: 60px auto;
+    margin: 30px auto;
     width: 70%;
+    
+    background-color: white;
+    font-family:'Arial', 'Sans-Serif';
+    font-size: 130%;
+    color: rgb(0, 0, 0);
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+nav.white
+{
+    background-color: white;
+}
+nav.blue
+{
+    background-color: rgb(100,154,210);
+}
+
+div.white
+{
+    background-color: white;
+}
+div.blue
+{
+    background-color: rgb(0, 66, 128);
+}
+div.bluetotop
+{
+    text-align: left;
+    background-color: rgb(0, 66, 128);
+}
+div.expitem
+{
+    background-color: white;
+    border-left: 6px solid rgb(0, 89, 155);
+    padding-left: 10px;
+}
+div.skillitem
+{
+    background-color: white;
+    padding-left: 20px;
+}
+div.usedskills
+{
+    color: rgb(0, 66, 128);
+    font-size: 0.9em;
+    line-height: 0.9em;
+    font-weight: normal;
+    font-style: italic;
+}
+div.disclaimer
+{
+    font-size: 0.8em;
+    line-height: 0.85em;
+    font-weight: normal;
+}
+
+nav ul, footer ul, p ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li, footer ul li, p ul li{
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+a.menulink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a.menulink:hover {
+    text-decoration: underline;
+}
+
+a.topimg {
+    text-decoration: none;
+    color: #999;
+}
+a.topimg:hover {
+    text-decoration: none;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: rgb(0, 66, 128);
 }
 a:hover {
     text-decoration: underline;
 }
+a.intext {
+    text-decoration: none;
+    color: rgb(0, 66, 128);
+}
+a.intext:hover {
+    text-decoration: underline;
+}
+a.totop {
+    font-family:'Arial', 'Sans-Serif';
+    font-size: 0.8em;
+    line-height: 0.8em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 66, 128);
+}
+a.totop:hover {
+    text-decoration: underline;
+}
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p {
+h1.menu {
     font-size: 1.5em;
+    line-height: 1.5em;
+    color: rgb(0, 66, 128);
+}
+h2.menu {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: rgb(0, 0, 0);
+}
+h3.menu {
+    font-size: 1.0em;
+    line-height: 1.0em;
+    color: rgb(0, 66, 128);
+}
+li.mytitle {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: rgb(0, 66, 128);
+}
+li.myforname {
+    font-size: 2em;
+    line-height: 2em;
+    color: rgb(0, 66, 128);
+}
+li.mysurname {
+    font-size: 2em;
+    line-height: 2em;
+    color: rgb(0, 66, 128);
+}
+li.menulink {
+    font-size: 1.3em;
     line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+    color: rgb(255, 255, 255);
 }
