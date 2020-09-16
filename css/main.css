@@ -21,6 +21,11 @@ div.white
 {
     background-color: white;
 }
+div.white
+{
+    background-color: white;
+    min-width: 260;
+}
 div.blue
 {
     background-color: rgb(0, 66, 128);
