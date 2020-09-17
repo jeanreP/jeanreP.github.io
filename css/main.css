@@ -16,11 +16,6 @@ nav.blue
 {
     background-color: rgb(100,154,210);
 }
-
-div.white
-{
-    background-color: white;
-}
 div.white
 {
     background-color: white;
@@ -54,17 +49,16 @@ div.usedskills
     font-weight: normal;
     font-style: italic;
 }
+td.address
+{
+    font-size: 1.0em;
+    line-height: 1.0em;
+    font-weight: normal;
+}
 div.disclaimer
 {
     font-size: 0.8em;
     line-height: 0.85em;
-    font-weight: normal;
-}
-
-div table tr td
-{
-    font-size: 1.0em;
-    line-height: 1.0em;
     font-weight: normal;
 }
 
@@ -89,10 +83,15 @@ a.menulink:hover {
     text-decoration: underline;
 }
 
+li.menulinklang{
+    text-decoration: none;
+    color: rgb(0, 66, 128);
+    font-weight: bold;
+}
 a.menulinklang{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
+    color: rgb(0, 66, 128);
+    font-weight: bold;
 }
 a.menulinklang:hover {
     text-decoration: underline;
